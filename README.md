@@ -12,29 +12,29 @@
     ```
 
 3. Move the binary into the folder
-  ```bash
-  mv gossh ~/.gossh
-  ```
+    ```bash
+    mv gossh ~/.gossh
+    ```
 
 4. Open bashrc with your text editor
-  ```bash
-  sudo nano ~/.bashrc
-  ```
+    ```bash
+    sudo nano ~/.bashrc
+    ```
 
 5. Add the following line, save and close the editor
-  ```bash
-  export PATH="$HOME/.gossh:$PATH"
-  ```
+    ```bash
+    export PATH="$HOME/.gossh:$PATH"
+    ```
 
 6. Update the bash
-  ```bash
-  source ~/.bashrc
-  ```
+    ```bash
+    source ~/.bashrc
+    ```
 
 7. Run gossh
-  ```bash
-  gossh add <name> <username@ip>
-  ```
+    ```bash
+    gossh add <name> <username@ip>
+    ```
 
 Linux only.
 
