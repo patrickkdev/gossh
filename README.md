@@ -1,30 +1,31 @@
 # GoSSH
 
 1. Clone the repository or download the binary
-
-Create a directory named '.gossh' on your home folder
-  ```bash
-  mkdir ~/.gossh
-  ```
-
-2. Move the binary into the folder
+    ```bash
+    git clone https://github.com/patrickkdev/GoSSH.git
+    cd GoSSH
+    ```
+2. Create a directory named '.gossh' on your home folder
+    ```bash
+    mkdir ~/.gossh
+    ```
+3. Move the binary into the folder
   ```bash
   mv gossh ~/.gossh
   ```
-3. Add it to your `$PATH`
-  Open bashrc
+4. Open bashrc with your text editor
   ```bash
   sudo nano ~/.bashrc
   ```
-  add the following line
+5. Add the following line, save and close the editor
   ```bash
   export PATH="$HOME/.gossh:$PATH"
   ```
-  update the bashrc
+6. Update the bash
   ```bash
   source ~/.bashrc
   ```
-4. Run gossh
+7. Run gossh
   ```bash
   gossh add <name> <username@ip>
   ```
