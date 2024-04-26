@@ -37,28 +37,28 @@ Linux only.
 
 7. Run gossh
     ```bash
-    gossh add <name> <username@ip>
+    gossh
     ```
 
 It is necessary to have `sshfs` installed in order to mount file systems.
 
 # Usage
-Add a server:
+Add a server
     ```bash
     gossh add <name> <username@ip>
     ```
     
-List available servers:
+List available servers
     ```bash
     gossh list
     ```
     
-SSH into a server: 
+SSH into a server
     ```bash
     gossh <server_name>
     ```
 
-Mount a server's file system:
+Mount a server's file system
     ```bash
     gossh fs <server_name>
     ```
