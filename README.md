@@ -29,11 +29,12 @@ Linux only.
     ```bash
     export PATH="$HOME/.gossh:$PATH"
     ```
-x
+6. Update bash
+    ```bash
     source ~/.bashrc
     ```
 
-7. Run gossh
+8. Run gossh
     ```bash
     gossh
     ```
@@ -43,27 +44,26 @@ It is necessary to have `sshfs` installed in order to mount file systems.
 # Usage
 
 Add a server
-
-    ```bash
-    gossh add <name> <username@ip>
-    ```
+```bash
+gossh add <name> <username@ip>
+```
 
 List available servers
-    ```bash
-    gossh list
-    ```
+```bash
+gossh list
+```
 
 SSH into a server
-    ```bash
-    gossh <server_name>
-    ```
+```bash
+gossh <server_name>
+```
 
 Mount a server's file system
-    ```bash
-    gossh fs <server_name>
-    ```
+```bash
+gossh fs <server_name>
+```
 
 Remove a server from the list:
-    ```bash
-    gossh remove <name>
-    ```
+```bash
+gossh remove <name>
+```
