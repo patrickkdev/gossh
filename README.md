@@ -5,12 +5,12 @@
     git clone https://github.com/patrickkdev/GoSSH.git
     cd GoSSH
     ```
-    
+
 2. Create a directory named '.gossh' on your home folder
     ```bash
     mkdir ~/.gossh
     ```
-    
+
 3. Move the binary into the folder
   ```bash
   mv gossh ~/.gossh
