@@ -43,27 +43,25 @@ Linux only.
 It is necessary to have `sshfs` installed in order to mount file systems.
 
 # Usage
-To add a server:
+Add a server:
     ```bash
     gossh add <name> <username@ip>
     ```
-
-To SSH into a server: 
+List available servers:
+    ```bash
+    gossh list
+    ```
+SSH into a server: 
     ```bash
     gossh <server_name>
     ```
 
-To mount a server's file system:
+Mount a server's file system:
     ```bash
     gossh fs <server_name>
     ```
 
-    To remove a server:
+Remove a server from the list:
     ```bash
     gossh remove <name>
-    ```
-
-    To list available servers:
-    ```bash
-    gossh list
     ```
