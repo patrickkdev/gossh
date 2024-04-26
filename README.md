@@ -47,10 +47,12 @@ Add a server:
     ```bash
     gossh add <name> <username@ip>
     ```
+    
 List available servers:
     ```bash
     gossh list
     ```
+    
 SSH into a server: 
     ```bash
     gossh <server_name>
