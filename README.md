@@ -29,9 +29,7 @@ Linux only.
     ```bash
     export PATH="$HOME/.gossh:$PATH"
     ```
-
-6. Update the bash
-    ```bash
+x
     source ~/.bashrc
     ```
 
@@ -43,16 +41,18 @@ Linux only.
 It is necessary to have `sshfs` installed in order to mount file systems.
 
 # Usage
+
 Add a server
+
     ```bash
     gossh add <name> <username@ip>
     ```
-    
+
 List available servers
     ```bash
     gossh list
     ```
-    
+
 SSH into a server
     ```bash
     gossh <server_name>
