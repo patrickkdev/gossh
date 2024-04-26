@@ -1,5 +1,8 @@
 # GoSSH
 
+### Install
+Linux only.
+
 1. Clone the repository or download the binary
     ```bash
     git clone https://github.com/patrickkdev/GoSSH.git
@@ -36,18 +39,30 @@
     gossh add <name> <username@ip>
     ```
 
-Linux only.
-
 It is necessary to have `sshfs` installed in order to mount file systems.
 
-Usage:
+# Usage
+    To add a server:
+    ```bash
+        gossh add <name> <username@ip>
+    ```
 
-  To SSH into a server: gossh <server_name>
-
-  To mount a server's file system: gossh fs <server_name>
-  
-  To add a server: gossh add <name> <username@ip>
-  
-  To remove a server: gossh remove <name>
-  
-  To list available servers: gossh list
+    To SSH into a server: 
+    ```bash
+    gossh <server_name>
+    ```
+    
+    To mount a server's file system:
+    ```bash
+    gossh fs <server_name>
+    ```
+    
+    To remove a server:
+    ```bash
+    gossh remove <name>
+    ```
+    
+    To list available servers:
+    ```bash
+    gossh list
+    ```
