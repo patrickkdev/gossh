@@ -1,4 +1,5 @@
 # GoSSH
+Allows you to SSH into servers and mount file systems by name.
 
 ### Install
 Linux only.
@@ -42,26 +43,26 @@ Linux only.
 It is necessary to have `sshfs` installed in order to mount file systems.
 
 # Usage
-    To add a server:
+To add a server:
     ```bash
-        gossh add <name> <username@ip>
+    gossh add <name> <username@ip>
     ```
 
-    To SSH into a server: 
+To SSH into a server: 
     ```bash
     gossh <server_name>
     ```
-    
-    To mount a server's file system:
+
+To mount a server's file system:
     ```bash
     gossh fs <server_name>
     ```
-    
+
     To remove a server:
     ```bash
     gossh remove <name>
     ```
-    
+
     To list available servers:
     ```bash
     gossh list
