@@ -133,8 +133,8 @@ func removeServer(name string, servers map[string]string) {
 
 func listServers(servers map[string]string) {
 	fmt.Println("Available Servers:")
-	for name := range servers {
-			fmt.Println(name)
+	for name, host := range servers {
+		fmt.Printf("%s: %s\n", name, host)
 	}
 }
 
