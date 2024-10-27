@@ -1,4 +1,4 @@
-# GoSSH
+# gossh
 Allows you to SSH into servers and mount file systems by name.
 
 ### Install
