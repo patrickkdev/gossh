@@ -4,42 +4,23 @@ Allows you to SSH into servers and mount file systems by name.
 ### Install
 Linux only.
 
-1. Clone the repository or download the binary
+1. Install directly from the repo using Go:
     ```bash
-    git clone https://github.com/patrickkdev/GoSSH.git
+    go install https://github.com/patrickkdev/gossh@latest
     cd GoSSH
     ```
 
-2. Create a directory named '.gossh' on your home folder
+2. Ensure the go bin directory is in your path
     ```bash
-    mkdir ~/.gossh
+    export PATH="$HOME/go/bin:$PATH"
     ```
-
-3. Move the binary into the folder
-    ```bash
-    mv gossh ~/.gossh
-    ```
-
-4. Open bashrc with your text editor
-    ```bash
-    sudo nano ~/.bashrc
-    ```
-
-5. Add the following line, save and close the editor
-    ```bash
-    export PATH="$HOME/.gossh:$PATH"
-    ```
-6. Update bash
-    ```bash
-    source ~/.bashrc
-    ```
-
+    
 8. Run gossh
     ```bash
     gossh
     ```
 
-It is necessary to have `sshfs` installed in order to mount file systems.
+OBS: In order to mount file systems it is necessary to have `sshfs` installed
 
 # Usage
 
