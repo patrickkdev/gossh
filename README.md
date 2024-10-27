@@ -7,7 +7,6 @@ Linux only.
 1. Install directly from the repo using Go:
     ```bash
     go install https://github.com/patrickkdev/gossh@latest
-    cd GoSSH
     ```
 
 2. Ensure the go bin directory is in your path
